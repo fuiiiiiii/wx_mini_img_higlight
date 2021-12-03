@@ -1,0 +1,13 @@
+
+.img {
+  width: 390rpx;
+  height: 520rpx;
+  vertical-align: bottom;
+}
+
+.bor {
+  width: 390rpx;
+  height: 520rpx;
+  position: relative;
+ margin: 0 auto;
+}

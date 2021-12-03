@@ -1,0 +1,9 @@
+<view class="pic">
+    <slot></slot>
+    <block wx:if="{{show}}">
+        <view class="mask"></view>
+        <image src="{{thumbnailUrl}}" class=" showline am" mode="aspectFill" />
+        <image src="{{ thumbnailUrl}}" class=" showline2 am2" mode="aspectFill" />
+        <image src="{{ thumbnailUrl}}" class=" showline3 am3" mode="aspectFill" />
+    </block>
+</view>

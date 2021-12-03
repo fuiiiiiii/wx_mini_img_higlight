@@ -1,0 +1,5 @@
+<view class="bor">
+    <light thumbnailUrl="{{img}}" show="{{true}}">
+        <image mode="aspectFill" class="img" src="{{img}}"></image>
+    </light>
+</view>
